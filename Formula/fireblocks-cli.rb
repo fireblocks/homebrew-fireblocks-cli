@@ -20,7 +20,7 @@ class FireblocksCli < Formula
                   
     def install
       libexec.install Dir["*"]
-      bin.write_exec_script libexec/"bin/fireblocks"
+      bin.install_symlink libexec/"bin/fireblocks"
     end                                                                
    
     test do                                                            
