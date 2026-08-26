@@ -1,19 +1,19 @@
 class FireblocksCli < Formula
   desc "Command-line interface for Fireblocks infrastructure"
   homepage "https://github.com/fireblocks/fireblocks-cli"
-  version "7.0.0"
+  version "8.0.0"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/fireblocks/fireblocks-cli/releases/download/v7.0.0/fireblocks-v7.0.0-darwin-arm64.tar.gz"
-      sha256 "61a16103df2d8bf20b1a41a628e4f1b0b89d023ef3f6a8f13f5b2a44aff0b66d"
+      url "https://github.com/fireblocks/fireblocks-cli/releases/download/v8.0.0/fireblocks-v8.0.0-darwin-arm64.tar.gz"
+      sha256 "1bdbc60595782b60401ddf4bd8ed815626674822c5e3724249e4cdda3d4fb956"
     end
     on_intel do
-      url "https://github.com/fireblocks/fireblocks-cli/releases/download/v7.0.0/fireblocks-v7.0.0-darwin-x64.tar.gz"
-      sha256 "71f44ed661b98be0366b6989a45a06fa86b98c1378659a5dd81badbd13e5a8f2"
+      url "https://github.com/fireblocks/fireblocks-cli/releases/download/v8.0.0/fireblocks-v8.0.0-darwin-x64.tar.gz"
+      sha256 "2596c4c2abd1f87863bf81bb1f27d536ce9184af11db9ef7fb1ff39c49c1d53b"
     end
   end
 
